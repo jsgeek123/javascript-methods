@@ -19,11 +19,10 @@ It is a property that represents the prototype for the *Array* constructor.
 &nbsp;&nbsp;&nbsp; It supports in all browsers including desktop as well as mobile.
 
 ***Example:***<br>
-
 ```javascript
 
 var x = [1, 2, 3, 4, 5];
-console.log(x.length);
+console.log(x.length); // 5
 
 ```
 
@@ -40,7 +39,31 @@ It creates a new Array instance from an array-like or iterable object.
 &nbsp;&nbsp;&nbsp;thisArgument - Optional. Value to use as this when executing mapFn.<br>
 
 ***Browser compatibility:***<br>
-&nbsp;&nbsp;&nbsp; It supports in fewer browsers but can be used with [polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Polyfill).
+&nbsp;&nbsp;&nbsp; It supports in fewer browsers but can be used in all browsers with [polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Polyfill).
+
+***Example:***<br>
+```javascript
+
+var x = [1, 2, 3, 4, 5];
+
+var y = Array.from(x);
+console.log(y); // [1, 2, 3, 4, 5]
+
+var z = Array.from(x, function(element, index) {
+    return element * index;
+});
+console.log(z); // [0, 2, 6, 12, 20]
+
+```
+
+
+
+
+
+
+
+
+
 
 
 
