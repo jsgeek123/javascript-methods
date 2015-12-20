@@ -44,11 +44,15 @@ It is a global object that is used in the construction of arrays; which are high
 
 ***Syntax:***
 
+```javascript
+
 [element0, element1, ..., elementN]
-<br>
+
 new Array(element0, element1[, ...[, elementN]])
-<br>
+
 new Array(arrayLength)
+
+```
 
 ***Parameters:***
 
