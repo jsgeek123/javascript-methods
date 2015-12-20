@@ -10,9 +10,9 @@ Check [Expressions.md](Expressions.md)
 
 Check [Statements.md](Statements.md)
 
-## @ Value
+## @ Values
 
-Check [Value.md](Value.md)
+Check [Values.md](Values.md)
 
 ## @ Functions
 
