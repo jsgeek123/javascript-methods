@@ -12,8 +12,8 @@ It is a property that represents the prototype for the *Array* constructor.
 
 ```javascript
 
-Array.prototype.length;
-[].length;
+Array.prototype.length
+[].length
 
 ```
 
@@ -86,7 +86,11 @@ It creates a new Array instance from an array-like or iterable object.
 
 ***Syntax:***
 
+```javascript
+
 Array.from(arrayObject[, mapFunction[, thisArgument]])
+
+```
 
 ***Parameters:***
 
@@ -123,7 +127,11 @@ It returns true if an object is an array, false if it is not.
 
 ***Syntax:***
 
+```javascript
+
 Array.isArray(arrayObject)
+
+```
 
 ***Parameters:***
 
@@ -166,7 +174,11 @@ Array.of(element0[, element1[, ...[, elementN]]])
 
 ***Parameters:***
 
+``javascript
+
 elementN - Elements of which to create the array.
+
+```
 
 ***Browser compatibility:***
 
