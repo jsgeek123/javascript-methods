@@ -170,15 +170,15 @@ It creates a new Array instance with a variable number of arguments, regardless 
 
 ***Syntax:***
 
+``javascript
+
 Array.of(element0[, element1[, ...[, elementN]]])
+
+```
 
 ***Parameters:***
 
-``javascript
-
 elementN - Elements of which to create the array.
-
-```
 
 ***Browser compatibility:***
 
