@@ -18,9 +18,9 @@ Check [Values.md](Values.md)
 
 Check [Functions.md](Functions.md)
 
-## @ Classes
+## @ Class
 
-Check [Classes.md](Classes.md)
+Check [Class.md](Class.md)
 
 ## @ Array
 
