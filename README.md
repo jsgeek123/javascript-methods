@@ -4,7 +4,7 @@ Here is a collection of JavaScript Methods that available or can be made availab
 
 ## @ Array
 
-#### @@ Array.prototype ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype))
+### @@ Array.prototype ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype))
 
 It is a property that represents the prototype for the *Array* constructor.
 
@@ -38,7 +38,7 @@ console.log(x.length); // 5
 
 ```
 
-#### @@ Array() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array))
+### @@ Array() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array))
 
 It is a global object that is used in the construction of arrays; which are high-level, list-like objects.
 
@@ -80,7 +80,7 @@ console.log(z);     // an array of 5 empty slots
 
 ```
 
-#### @@ Array.from() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from))
+### @@ Array.from() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from))
 
 It creates a new Array instance from an array-like or iterable object.
 
@@ -121,7 +121,7 @@ console.log(z); // [0, 2, 6, 12, 20]
 
 ```
 
-#### @@ Array.isArray() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray))
+### @@ Array.isArray() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray))
 
 It returns true if an object is an array, false if it is not.
 
@@ -164,7 +164,7 @@ Array.isArray([{a: 1}, {b: 2}, {c: function() { return 1; }}]); // true
 
 ```
 
-#### @@ Array.of() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of))
+### @@ Array.of() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of))
 
 It creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.
 
@@ -196,16 +196,40 @@ Array.of(null);         // [ null ]
 
 ```
 
+### @@ Array.concat() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat))
 
+It returns a new array comprised of the array on which it is called joining the arrays (or values) provided as arguments maintaining the order.
 
+***Syntax:***
 
+```javascript
 
+var newArray = oldArray.concat(array1[, array2[, ...[, arrayN]]])
 
+```
 
+***Parameters:***
 
+arrayN - Arrays (or values) to concatenate into a new array.
 
+***Browser compatibility:***
 
+It supports in all browsers including desktop as well as mobile
 
+***Example:***
+
+```javascript
+
+var num1 = [0],
+    num2 = [1, 2, 3],
+    num3 = [4, 5],
+    num4 = 6;
+
+var nums = num1.concat(num2, num3, num4);
+
+console.log(nums);  // [ 0, 1, 2, 3, 4, 5, 6 ]
+
+```
 
 
 
