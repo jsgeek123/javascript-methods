@@ -47,11 +47,12 @@ It creates a new Array instance from an array-like or iterable object.
 var x = [1, 2, 3, 4, 5];
 
 var y = Array.from(x);
-console.log(y); // [1, 2, 3, 4, 5]
 
 var z = Array.from(x, function(element, index) {
     return element * index;
 });
+
+console.log(y); // [1, 2, 3, 4, 5]
 console.log(z); // [0, 2, 6, 12, 20]
 
 ```
