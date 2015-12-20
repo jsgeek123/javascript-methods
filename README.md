@@ -8,17 +8,20 @@ Here is a collection of JavaScript Methods that available or can be made availab
 
 It is a property that represents the prototype for the *Array* constructor.
 
-***Features:***<br>
-&nbsp;&nbsp;&nbsp; 1) *Array.prototype* itself is an Array.
-<br>
-&nbsp;&nbsp;&nbsp; 2) *Array.prototype.constructor* specifies the function that creates an object's prototype.
-<br>
-&nbsp;&nbsp;&nbsp; 3) *Array.prototype.length* reflects the number of elements in an Array which is similar to Array.length.
+***Features:***
 
-***Browser compatibility:***<br>
-&nbsp;&nbsp;&nbsp; It supports in all browsers including desktop as well as mobile.
+1) *Array.prototype* itself is an Array.
+<br>
+2) *Array.prototype.constructor* specifies the function that creates an object's prototype.
+<br>
+3) *Array.prototype.length* reflects the number of elements in an Array which is similar to Array.length.
 
-***Example:***<br>
+***Browser compatibility:***
+
+It supports in all browsers including desktop as well as mobile.
+
+***Example:***
+
 ```javascript
 
 var x = [1, 2, 3, 4, 5];
@@ -30,18 +33,24 @@ console.log(x.length); // 5
 
 It creates a new Array instance from an array-like or iterable object.
 
-***Syntax:***<br>
-&nbsp;&nbsp;&nbsp;Array.from(arrayObject[, mapFunction[, thisArgument]])
+***Syntax:***
 
-***Parameters:***<br>
-&nbsp;&nbsp;&nbsp;arrayObject - An array-like or iterable object to convert to an array.<br>
-&nbsp;&nbsp;&nbsp;mapFunction - Optional. Map function (function(element, index) {}) to call on every element of the array.<br>
-&nbsp;&nbsp;&nbsp;thisArgument - Optional. Value to use as this when executing mapFn.<br>
+Array.from(arrayObject[, mapFunction[, thisArgument]])
 
-***Browser compatibility:***<br>
-&nbsp;&nbsp;&nbsp; It supports in fewer browsers but can be used in all browsers with [polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Polyfill).
+***Parameters:***
 
-***Example:***<br>
+arrayObject - An array-like or iterable object to convert to an array.<br>
+
+mapFunction - Optional. Map function (function(element, index) {}) to call on every element of the array.<br>
+
+thisArgument - Optional. Value to use as this when executing mapFn.<br>
+
+***Browser compatibility:***
+
+It supports in fewer browsers but can be used in all browsers with [polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Polyfill).
+
+***Example:***
+
 ```javascript
 
 var x = [1, 2, 3, 4, 5];
@@ -56,6 +65,56 @@ console.log(y); // [1, 2, 3, 4, 5]
 console.log(z); // [0, 2, 6, 12, 20]
 
 ```
+
+#### Array.isArray() ([here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray))
+
+It returns true if an object is an array, false if it is not.
+
+***Syntax:***
+
+Array.isArray(arrayObject)
+
+***Parameters:***
+
+arrayObject - The object to be checked.
+
+***Browser compatibility:***
+
+It supports in all browsers including desktop as well as mobile without [polyfill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray#Polyfill).
+
+***Example:***
+
+```javascript
+
+Array.isArray([]);                                              // true
+Array.isArray([1]);                                             // true
+Array.isArray(new Array());                                     // true
+Array.isArray(Array.prototype);                                 // true
+Array.isArray();                                                // false
+Array.isArray({});                                              // false
+Array.isArray(null);                                            // false
+Array.isArray(undefined);                                       // false
+Array.isArray(17);                                              // false
+Array.isArray('Array');                                         // false
+Array.isArray(Array);                                           // false
+Array.isArray(true);                                            // false
+Array.isArray(false);                                           // false
+Array.isArray({ __proto__: Array.prototype });                  // false
+Array.isArray([{a: 1}, {b: 2}]);                                // true
+Array.isArray([{a: 1}, {b: 2}, {c: function() { return 1; }}]); // true
+
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
