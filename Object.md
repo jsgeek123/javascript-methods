@@ -1,24 +1,26 @@
 ## @ Object
 
-(*[Expressions & Operators](Expressions.md)&nbsp;
-[Statements & Declarations](Statements.md)&nbsp;
-[Values](Values.md)&nbsp;
-[Functions](Functions.md)&nbsp;
-[Class](Class.md)&nbsp;
-[Array](Array.md)&nbsp;
-[String](String.md)&nbsp;
-[Number](Number.md)&nbsp;
-[RegExp](RegExp.md)&nbsp;
-[Date](Date.md)&nbsp;
-[Error](Error.md)&nbsp;
-[Math](Math.md)&nbsp;
-[URI](URI.md)&nbsp;
-[JSON](JSON.md)&nbsp;
-[Promise](Promise.md)&nbsp;
-[Closure](Closure.md)&nbsp;
-[Document](Document.md)&nbsp;
-[Window](Window.md)&nbsp;
-[Location](Location.md)&nbsp;
-[Timers](Timers.md)&nbsp;
-[Miscellaneous](Miscellaneous.md)*)
+[ *[Expressions & Operators](Expressions.md) |
+[Statements & Declarations](Statements.md) |
+[Values](Values.md) |
+[Functions](Functions.md) |
+[Class](Class.md) |
+[Array](Array.md) |
+[Object](Object.md) |
+[String](String.md) |
+[Number](Number.md) |
+[RegExp](RegExp.md) |
+[Date](Date.md) |
+[Error](Error.md) |
+[Math](Math.md) |
+[URI](URI.md) |
+[JSON](JSON.md) |
+[Promise](Promise.md) |
+[Closure](Closure.md) |
+[Document](Document.md) |
+[Window](Window.md) |
+[Location](Location.md) |
+[Timers](Timers.md) |
+[Miscellaneous](Miscellaneous.md)* ]
+
 
