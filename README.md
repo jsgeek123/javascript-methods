@@ -70,6 +70,22 @@ Check [Promise.md](Promise.md)
 
 Check [Closure.md](Closure.md)
 
+## @ Document
+
+Check [Document.md](Document.md)
+
+## @ Window
+
+Check [Window.md](Window.md)
+
+## @ Location
+
+Check [Location.md](Location.md)
+
+## @ Timers
+
+Check [Timers.md](Timers.md)
+
 ## @ Miscellaneous
 
 Check [Miscellaneous.md](Miscellaneous.md)
