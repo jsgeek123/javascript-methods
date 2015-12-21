@@ -1,5 +1,3 @@
-## @ Error
-
 (*[Expressions & Operators](Expressions.md)&nbsp;
 [Statements & Declarations](Statements.md)&nbsp;
 [Values](Values.md)&nbsp;
@@ -11,6 +9,7 @@
 [Number](Number.md)&nbsp;
 [RegExp](RegExp.md)&nbsp;
 [Date](Date.md)&nbsp;
+[Error](Error.md)&nbsp;
 [Math](Math.md)&nbsp;
 [URI](URI.md)&nbsp;
 [JSON](JSON.md)&nbsp;
@@ -21,4 +20,3 @@
 [Location](Location.md)&nbsp;
 [Timers](Timers.md)&nbsp;
 [Miscellaneous](Miscellaneous.md)*)
-
