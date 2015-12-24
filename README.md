@@ -16,7 +16,7 @@ Check [Values.md](Values.md)
 
 ## @ Functions
 
-Check [Functions.md](Functions.md)
+Check [Function.md](Function.md)
 
 ## @ Class
 

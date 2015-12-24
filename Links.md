@@ -1,7 +1,7 @@
 [ *[Expressions & Operators](Expressions.md) |
 [Statements & Declarations](Statements.md) |
 [Values](Values.md) |
-[Functions](Functions.md) |
+[Function](Function.md) |
 [Class](Class.md) |
 [Array](Array.md) |
 [Object](Object.md) |
