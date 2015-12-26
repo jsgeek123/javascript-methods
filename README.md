@@ -4,91 +4,91 @@ Here is list of collection of JavaScript methods that available to all the brows
 
 ## @ Expressions & Operators
 
-Check [Expressions.md](Expressions.md)
+Check [Expressions](Expressions.md)
 
 ## @ Statements & Declarations
 
-Check [Statements.md](Statements.md)
+Check [Statements](Statements.md)
 
 ## @ Values
 
-Check [Values.md](Values.md)
+Check [Values](Values.md)
 
 ## @ Functions
 
-Check [Function.md](Function.md)
+Check [Function](Function.md)
 
 ## @ Class
 
-Check [Class.md](Class.md)
+Check [Class](Class.md)
 
 ## @ Array
 
-Check [Array.md](Array.md)
+Check [Array](Array.md)
 
 ## @ Object
 
-Check [Object.md](Object.md)
+Check [Object](Object.md)
 
 ## @ String
 
-Check [String.md](String.md)
+Check [String](String.md)
 
 ## @ Number
 
-Check [Number.md](Number.md)
+Check [Number](Number.md)
 
 ## @ RegExp
 
-Check [RegExp.md](RegExp.md)
+Check [RegExp](RegExp.md)
 
 ## @ Date
 
-Check [Date.md](Date.md)
+Check [Date](Date.md)
 
 ## @ Error
 
-Check [Error.md](Error.md)
+Check [Error](Error.md)
 
 ## @ Math
 
-Check [Math.md](Math.md)
+Check [Math](Math.md)
 
 ## @ URI
 
-Check [URI.md](URI.md)
+Check [URI](URI.md)
 
 ## @ JSON
 
-Check [JSON.md](JSON.md)
+Check [JSON](JSON.md)
 
 ## @ Promise
 
-Check [Promise.md](Promise.md)
+Check [Promise](Promise.md)
 
 ## @ Closure
 
-Check [Closure.md](Closure.md)
+Check [Closure](Closure.md)
 
 ## @ Document
 
-Check [Document.md](Document.md)
+Check [Document](Document.md)
 
 ## @ Window
 
-Check [Window.md](Window.md)
+Check [Window](Window.md)
 
 ## @ Location
 
-Check [Location.md](Location.md)
+Check [Location](Location.md)
 
 ## @ Timers
 
-Check [Timers.md](Timers.md)
+Check [Timers](Timers.md)
 
 ## @ Miscellaneous
 
-Check [Miscellaneous.md](Miscellaneous.md)
+Check [Miscellaneous](Miscellaneous.md)
 
 # License ([MIT](https://opensource.org/licenses/MIT))
 
